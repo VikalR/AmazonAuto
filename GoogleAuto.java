@@ -71,12 +71,12 @@ public class GoogleAuto {
 	    builder.moveToElement(autoSuggest.get(3)).build().perform();
 
 	 // Give wait for 2 seconds 
-	 Thread.sleep(8000);
+	 Thread.sleep(12000);
 
 	 // finally click on that element
 	 builder.click(autoSuggest.get(3)).build().perform();
 	 
-	   // autoSuggest.get(2).click();
+	 autoSuggest.get(2).click();
 		
 		
 	}
